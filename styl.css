@@ -1,0 +1,555 @@
+
+.ikona_mysz > img
+{
+    
+    width: 33px;
+    height: 33px;
+}
+.facebook > img
+{
+    width: 24px;
+    height: 47px;
+    opacity: 1;
+
+}
+.serach > img
+{
+    width: 22px;
+    height: 47px;
+    opacity: 1;
+}
+.logo
+{
+    background-image: url("logo.png");
+    width: 273px;
+    height: 56pxs;
+}
+.sekcja1_left_div
+{
+    padding-right: 5%;
+}
+#czasopismo_img
+{
+    background: lightcoral;
+    width:628px;
+    height: 473px;
+}
+#czasopismo_tekst
+{
+    width: 628px;
+    height: 575px;
+    padding-top: 20%;
+    padding: 10%;
+}
+
+
+.sekcja1_male
+{
+    width: 320px;
+    height: 233px;
+    background-color: lightcoral;
+}
+.nav_option
+{
+    font-family:Barlow;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+
+}
+main
+{
+    background-color: lightgray;
+}
+main h1
+{
+    font-family: Barlow;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+main p
+{
+    font-family: Barlow;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+main button
+{
+    background-color: #FFFFFF;
+    padding-top: 11px;  
+    padding-right: 31px;
+    padding-bottom: 13px;
+    padding-left: 31px;
+    gap: 10px;
+
+}
+#czasopismo_tekst
+{
+    color: white;
+    background-color: #4B4B4B;
+    
+}
+#czasopismo_tekst > h1
+{
+    font-family: Barlow;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+#czasopismo_tekst > h1
+{
+    font-family: Barlow;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    padding: 10px;
+}
+#pobierz
+{
+    background-color: #FFFFFF;
+    padding-top: 11px;  
+    padding-right: 31px;
+    padding-bottom: 13px;
+    padding-left: 31px;
+    gap: 10px;
+}
+.zobacz_wiecej
+{
+    background: #C4C4C4;
+    padding-top: 11px;  
+    padding-right: 31px;
+    padding-bottom: 13px;
+    padding-left: 31px;
+    gap: 10px;
+    font-family: Barlow;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+
+}
+.zobacz_wiecej_p
+{
+    font-family: Barlow;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: right;
+
+}
+.zobacz_wiecej_biale
+{
+     background: white;
+    padding-top: 11px;  
+    padding-right: 31px;
+    padding-bottom: 13px;
+    padding-left: 31px;
+    gap: 10px;
+}
+.sekcja1_naglowek_male_button
+{
+
+    padding-top: 11px;
+    padding-right: 31px;
+    padding-bottom: 13px;
+    padding-left: 31px;
+    gap: 10px;
+    font-family: Barlow;
+    font-weight: 600;
+    font-size: 18px;
+
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+
+
+}
+.sekcja1_naglowek_male_kategoria
+{
+    font-family: Barlow;
+font-weight: 600;
+font-size: 14px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: right;
+color: #4B4B4B;
+
+
+}
+.sekcja1_naglowek_male_tekst
+{
+    padding-top: 11px;
+    padding-right: 31px;
+    padding-bottom: 13px;
+    padding-left: 31px;
+    font-family: Barlow;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    width: 217;
+    height: 38;
+    top: 2px;
+}
+.sekcja1_male_tekst > h1
+{
+    font-family: Barlow;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    padding: 10px;
+
+}
+.sekcja1_male_tresc
+{
+    font-family: Barlow;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+.sekcja1_zobacz_wiecej_p
+{
+    font-family: Barlow;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: right;
+
+}
+.sekcja1_tekst_male > 
+{
+    font-family: Barlow;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+.sekcja2_tresc
+{
+    background-color: #C4C4C4;
+    width: 660;
+    height: 265;
+    opacity: 1;
+    padding-top: 150px;
+
+    
+}
+.sekcja2_tresc > h1
+{
+    font-family: Barlow;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+.sekcja2_tresc > p
+{
+    font-family: Barlow;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+
+.text_border
+{
+    border: 1px solid #979797 ;
+    color: #979797;
+    gap: 10px;
+    padding-top: 2px;
+    padding-right: 10px;
+    padding-bottom: 5px;    
+    padding-left: 10px;
+    border-width: 1px;
+}
+.sekcja3_naglowek_tekst
+{
+    width: 290;
+    height: 38;
+    opacity: 1;
+
+    font-family: Barlow;
+    font-weight: 400;
+    font-size: 32px;    
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+.sekcja3_tresc > h1
+{
+    font-family: Barlow;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 100%;
+    letter-spacing: 0%;
+     
+}
+.sekcja3_tresc > p 
+{
+    font-family: Barlow;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+.sekcja3_img_space
+{
+    background-color: lightcoral;
+    width:304px;
+    height: 265px;
+}
+.sekcja4_img_space
+{
+    background-color: lightcoral;
+    width:304px;
+    height: 265px;
+}
+.sekcja4_button
+{
+    padding: 20px;
+}
+#sekcja4 > .container
+{
+    background: #4B4B4B;
+    color: white;
+}
+.sekcja4_div_info
+{
+    background: white;
+    color: black
+}
+.sekcja4_kategoria
+{
+    font-family: Barlow;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+.sekcja4_tresc_naglowek
+{
+    font-family: Barlow;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+.sekcja4_tresc
+{
+    font-family: Barlow;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+.szczegoly
+{
+    font-family: Barlow;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: right;
+
+}
+.sekcja5_img_space
+{
+    background-color: lightcoral;
+    width:287px;
+    height: 185px;
+}
+.sekcja5_naglowek_tresc
+{
+    font-family: Barlow;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+.reportaz_temat
+{
+    font-family: Barlow;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    padding:10px;
+}
+.reportaz_tresc
+{
+    font-family: Barlow;
+    font-weight: 400;
+    font-size: 18px;    
+    line-height: 100%;
+    letter-spacing: 0%;
+    padding:10px;
+}
+.sekcja6_right_div_tytul
+{
+    font-family: Barlow;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+.sekcja6_right_div_tresc
+{
+    font-family: Barlow;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+#sekcja6 > .container
+{
+    background-color:#C4C4C4;
+}
+
+.sekcja7_img_space
+{
+    background-color: lightcoral;
+    width:320px;
+    height: 233px;
+}
+.sekcja7_naglowek_tytul
+{
+    font-family: Barlow;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+.news_tytul
+{
+    font-family: Barlow;
+    font-weight: 600;   
+    font-size: 26px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+.news_tresc
+{
+    font-family: Barlow;
+    font-weight: 400;
+    font-size: 18px;    
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+.sekcja8_naglowek_tytul
+{
+    font-family: Barlow;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+.sekcja8_video_space
+{
+    background-color: lightblue;
+    width:389px;
+    height: 306px;
+}
+.nazwa_filmu
+{
+    font-family: Barlow;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+.sekcja9_naglowek_tytul
+{
+    font-family: Barlow;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+.sekcja9_img_space
+{
+    background-color: lightcoral;
+    width:285px;
+    height: 403px;
+}
+#sekcja9 > .container
+{
+    background-color: #C4C4C4;
+}
+.wydanie_tekst_data
+{
+    font-family: Barlow;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+.wydanie_tekst_tytul
+{
+    font-family: Barlow;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+.pobierz_p
+{
+    font-family: Barlow;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    
+}
+.zobacz_wiecej_ciemny
+{
+     background: #4B4B4B;
+    padding-top: 11px;  
+    padding-right: 31px;
+    padding-bottom: 13px;
+    padding-left: 31px;
+    gap: 10px;
+    color:white
+}
+footer > .container
+{
+    background-color: #4B4B4B;
+    color: white;
+}
+.footer_bigger
+{
+    font-family: Barlow;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+section,main
+{
+    padding: 75px;
+}
