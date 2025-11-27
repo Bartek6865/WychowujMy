@@ -13,24 +13,26 @@
 <div class="container">
     <nav class="navbar">
         <div class="container">
-        <div class="row">
+        <div class="row pt-4 pb-2">
         <div class="col-auto"><img src="logo.png" alt="WychowujMy!" class="logo"></div>
-        <div class="col nav_option">czasopismo</div>
-        <div class="col nav_option">dziecko</div>
-        <div class="col nav_option">klasycy wychowania</div>
-        <div class="col nav_option">inspiracje</div>
-        <div class="col nav_option">spotkania</div>
-        <div class="col nav_option">czy wiesz ze...</div>
-        <div class="col nav_option">multimedia</div>
-        <div class="col nav_option">kontakt</div>
-        <div class="col nav_option">facebook</div>
-        <div class="col nav_option">searchbar</div>
+        <div class="col nav_option pt-4">czasopismo</div>
+        <div class="col nav_option pt-4">dziecko</div>
+        <div class="col nav_option pt-4">klasycy wychowania</div>
+        <div class="col nav_option pt-4">inspiracje</div>
+        <div class="col nav_option pt-4">spotkania</div>
+        <div class="col nav_option pt-3">czy wiesz ze...</div>
+        <div class="col nav_option pt-4">multimedia</div>
+        <div class="col nav_option pt-4">kontakt</div>
+        <div class="col nav_option facebook pt-3"><img src="facebook.png"></div>
+        <div class="col nav_option search"><img src="search.png"></div>
         </div>
     </div>
     </nav>
     <main>
         <div class="container">
-        <h1>Najnowsze wydanie</h1>
+        <div class="row">
+            <div class="col-12">
+                <h1>Najnowsze wydanie</h1>
         <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
             sed do eiusmod tempor incididunt ut labore et dolore magna 
@@ -40,7 +42,15 @@
         <button class="pobierz">
             Pobierz e-wydanie
         </button>
-        <img src="mysz.png" alt="ikonamysz">
+            </div>
+            <div class="col"></div>
+            <div class="col-auto ikona_mysz">
+                <img src="ikona_mysz.png">
+            </div>
+            <div class="col"></div>
+        </div>
+        
+        
     </div>
     </main> 
     <section class="tresc" id="sekcja1">
@@ -50,7 +60,7 @@
     <div class="row sekcja1_left_div">
         <div class="col-12" id="czasopismo_img"></div>
         <div class="col-12" id="czasopismo_tekst">
-            <h1>czasopismo</h1>
+            <h1>Czasopismo</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                 sed do eiusmod tempor incididunt ut labore et dolore magna 
                 aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
@@ -68,10 +78,19 @@
     
     <div class="row" id="rozwoj">
     <div class="col-12 sekcja1_naglowek_male">
-        <b>Rozwój dziecka</b>
-        <button class="zobacz_wiecej" onclick>
-            Zobacz wiecej
-        </button>
+    <div class="container">
+        <div class="row">
+            <div class="col sekcja1_naglowek_male_tekst">
+                <b>Rozwój dziecka</b>
+            </div>
+            <div class="col-1"></div>
+            <div class="col sekcja1_naglowek_male_button">
+                <button class="zobacz_wiecej" onclick>
+                    Zobacz wiecej
+                </button>
+            </div>
+        </div>
+    </div>
         <hr>
     </div>
         <div class="col-6">
@@ -80,10 +99,21 @@
                     <div class="col-12 sekcja1_male">
 
                     </div>
-                    <div class="col-12 sekcja1_tekst_male">
-                      <p>KATEGORIA 15.07.2021</p>
+                    <div class="col-12 sekcja1_male_tekst">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col sekcja1_naglowek_male_kategoria">
+                                    KATEGORIA
+                                </div>
+                                <div class="col"></div>
+                                <div class="col sekcja1_naglowek_male_kategoria">
+                                    15.07.2021
+                                </div>
+    
+                            </div>
+                          </div>
                         <h1>Psychologia</h1>
-                        <p>
+                        <p class="sekcja1_male_tresc">
                             lorem ipsum
                         </p>
                         <p class="zobacz_wiecej_p">ZOBACZ WIĘCEJ</p>
@@ -99,10 +129,21 @@
                     <div class="col-12 sekcja1_male">
 
                     </div>
-                    <div class="col-12 sekcja1_tekst_male">
-                      <p>KATEGORIA 15.07.2021</p>
+                    <div class="col-12 sekcja1_male_tekst">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col sekcja1_naglowek_male_kategoria">
+                                    KATEGORIA
+                                </div>
+                                <div class="col"></div>
+                                <div class="col sekcja1_naglowek_male_kategoria">
+                                    15.07.2021
+                                </div>
+    
+                            </div>
+                          </div>
                         <h1>Rozwoj</h1>
-                        <p>
+                        <p class="sekcja1_male_tresc">
                             lorem ipsum
                         </p>
                         <p class="zobacz_wiecej_p">ZOBACZ WIĘCEJ</p>
@@ -114,10 +155,19 @@
     </div>
     <div class="row" id="wychowawcy">
     <div class="col-12 sekcja1_naglowek_male">
-        <b>WYchowawcy</b>
-        <button class="zobacz_wiecej" onclick>
-            Zobacz wiecej
-        </button>
+        <div class="container">
+            <div class="row">
+                <div class="col sekcja1_naglowek_male_tekst">
+                    <b>Wychowawcy</b>
+                </div>
+                <div class="col-1"></div>
+                <div class="col sekcja1_naglowek_male_button">
+                    <button class="zobacz_wiecej" onclick>
+                        Zobacz wiecej
+                    </button>
+                </div>
+            </div>
+        </div>
         <hr>
     </div>
        
@@ -127,10 +177,21 @@
                     <div class="col-12 sekcja1_male">
 
                     </div>
-                    <div class="col-12 sekcja1_tekst_male">
-                      <p>KATEGORIA 15.07.2021</p>
+                    <div class="col-12 sekcja1_male_tekst">
+                      <div class="container">
+                        <div class="row">
+                            <div class="col sekcja1_naglowek_male_kategoria">
+                                KATEGORIA
+                            </div>
+                            <div class="col"></div>
+                            <div class="col sekcja1_naglowek_male_kategoria">
+                                15.07.2021
+                            </div>
+
+                        </div>
+                      </div>
                         <h1>Rodzice</h1>
-                        <p>
+                        <p class="sekcja1_male_tresc">
                             lorem ipsum
                         </p>
                         <p class="zobacz_wiecej_p">ZOBACZ WIĘCEJ</p>
@@ -144,10 +205,21 @@
                     <div class="col-12 sekcja1_male">
 
                     </div>
-                    <div class="col-12 sekcja1_tekst_male">
-                      <p>KATEGORIA 15.07.2021</p>
+                    <div class="col-12 sekcja1_male_tekst">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col sekcja1_naglowek_male_kategoria">
+                                    KATEGORIA
+                                </div>
+                                <div class="col"></div>
+                                <div class="col sekcja1_naglowek_male_kategoria">
+                                    15.07.2021
+                                </div>
+    
+                            </div>
+                          </div>
                         <h1>Dziadkowie</h1>
-                        <p>
+                        <p class="sekcja1_male_tresc">
                             lorem ipsum
                         </p>
                         <p class="zobacz_wiecej_p">ZOBACZ WIĘCEJ</p>
@@ -180,8 +252,19 @@
     <div class="container">
     <div class="row">
         <div class="col-12">
-        <h1>Klasycy wychowania</h1>
-        <button class="zobacz_wiecej">Zobacz więcej</button>
+            <div class="container">
+                <div class="row">
+                    <div class="col sekcja3_naglowek_tekst">
+                        <b>Rozwój dziecka</b>
+                    </div>
+                    <div class="col-6"></div>
+                    <div class="col">
+                        <button class="zobacz_wiecej" onclick>
+                            Zobacz wiecej
+                        </button>
+                    </div>
+                </div>
+            </div>
         <hr>
     </div>
         <div class="col-3 klasyk">
@@ -190,7 +273,7 @@
                     <div class="col-12 sekcja3_img_space">
 
                     </div>
-                    <div class="col-12">
+                    <div class="col-12 sekcja3_tresc">
                         <h1>imie i nazwisko</h1>
                         <p>opis doktora</p>
                         <p class="zobacz_wiecej_p">ZOBACZ WIECEJ</p>
@@ -206,7 +289,7 @@
                     <div class="col-12 sekcja3_img_space">
 
                     </div>
-                    <div class="col-12">
+                    <div class="col-12 sekcja3_tresc">
                         <h1>imie i nazwisko</h1>
                         <p>opis doktora</p>
                         <p class="zobacz_wiecej_p">ZOBACZ WIECEJ</p>
@@ -220,7 +303,7 @@
                     <div class="col-12 sekcja3_img_space">
 
                     </div>
-                    <div class="col-12">
+                    <div class="col-12 sekcja3_tresc">
                         <h1>imie i nazwisko</h1>
                         <p>opis doktora</p>
                         <p class="zobacz_wiecej_p">ZOBACZ WIECEJ</p>
@@ -234,7 +317,7 @@
                     <div class="col-12 sekcja3_img_space">
 
                     </div>
-                    <div class="col-12">
+                    <div class="col-12 sekcja3_tresc">
                         <h1>imie i nazwisko</h1>
                         <p>opis doktora</p>
                         <p class="zobacz_wiecej_p">ZOBACZ WIECEJ</p>
@@ -252,20 +335,20 @@
 <section class="tresc" id="sekcja4">
     <div class="container">
     <div class="row">
-    <div class="col-12">
+    <div class="col-12 text-center sekcja4_naglowek pt-3 pb-3">
         <h1>Inspiracje</h1>
     </div>
-    <div class="col-1"></div>
-        <div class="col sekcja4_div_info">
+    <div class="col"></div>
+        <div class="col-2 sekcja4_div_info">
             <div class="container">
                 <div class="row">
                     <div class="col-12 sekcja4_img_space">
 
                     </div>
                     <div class="col-12">
-                        <p>lektury</p>
-                        <h1>Pan Tadeusz</h1>
-                        <p>lorem</p>
+                        <p class="sekcja4_kategoria">lektury</p>
+                        <p class="sekcja4_tresc_naglowek">Pan Tadeusz</p>
+                        <p class="sekcja4_tresc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis, et illo eos officiis aliquam soluta doloremque laudantium architecto! Error facere cum veniam nobis laudantium vel est amet iste totam cupiditate.</p>
                         <p class="text_border">Lektury</p>
                         <p class="text_border">Nauka</p>
                         <p class="text_border">Ksiązki</p>
@@ -275,17 +358,17 @@
             </div>
             
         </div>
-        <div class="col-1"></div>
-        <div class="col sekcja4_div_info">
+        <div class="col"></div>
+        <div class="col-2 sekcja4_div_info">
             <div class="container">
                 <div class="row">
                     <div class="col-12 sekcja4_img_space">
 
                     </div>
                     <div class="col-12">
-                        <p>podroze</p>
-                        <h1>Zamek krolewski</h1>
-                        <p>lorem</p>
+                        <p class="sekcja4_kategoria">podroze</p>
+                        <p class="sekcja4_tresc_naglowek">Zamek Królewski</p>
+                        <p class="sekcja4_tresc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum aliquid repellat dolorem cumque ducimus culpa rem ratione aspernatur id, ab quos exercitationem obcaecati quaerat rerum veniam, accusamus labore maiores praesentium.</p>
                         <p class="text_border">podroze</p>
                         <p class="text_border">historia</p>
                         <p class="text_border">Ksiązki</p>
@@ -295,17 +378,17 @@
             </div>
             
         </div>
-        <div class="col-1"></div>
-        <div class="col sekcja4_div_info">
+        <div class="col"></div>
+        <div class="col-2 sekcja4_div_info">
             <div class="container">
                 <div class="row">
                     <div class="col-12 sekcja4_img_space">
 
                     </div>
                     <div class="col-12">
-                        <p>gry bez pradu</p>
-                        <h1>Szachy</h1>
-                        <p>lorem</p>
+                        <p class="sekcja4_kategoria">gry bez pradu</p>
+                        <p class="sekcja4_tresc_naglowek">Szachy</p>
+                        <p class="sekcja4_tresc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit quod, alias sint magnam error deserunt incidunt pariatur tenetur illo eaque facilis doloremque, minima voluptatibus, placeat ex necessitatibus. Quis, commodi veritatis?</p>
                         <p class="text_border">gry bez pradu</p>
                         <p class="text_border">zabawa</p>
                         <p class="szczegoly">SZCZEGÓŁY</p>
@@ -314,17 +397,17 @@
             </div>
             
         </div>
-        <div class="col-1"></div>
-        <div class="col sekcja4_div_info">
+        <div class="col"></div>
+        <div class="col-2 sekcja4_div_info">
             <div class="container">
                 <div class="row">
                     <div class="col-12 sekcja4_img_space">
 
                     </div>
                     <div class="col-12">
-                        <p>mali zwyciezcy</p>
-                        <h1>Jas Kowalski</h1>
-                        <p>lorem</p>
+                        <p class="sekcja4_kategoria">mali zwyciezcy</p>
+                        <p class="sekcja4_tresc_naglowek">Jaś Kowalski</p>
+                        <p class="sekcja4_tresc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam sunt incidunt impedit consequatur, architecto non neque quaerat aspernatur libero numquam suscipit sapiente ea quisquam enim maxime iure perspiciatis optio aliquam.</p>
                         <p class="text_border">mali zwyciezcy</p>
                         <p class="szczegoly">SZCZEGÓŁY</p>
                     </div>
@@ -332,10 +415,10 @@
             </div>
             
         </div>
-        <div class="col-1"></div>
+        <div class="col"></div>
         
-        <div class="col-12">
-        <button class="zobacz_wiecej_biale">Zobacz wiecej</button>
+        <div class="col-12 text-center sekcja4_button pt-4">
+        <button class="zobacz_wiecej_biale ">Zobacz wiecej</button>
         </div>
         </div>
         </div>
@@ -345,8 +428,19 @@
         <div class="container">
         <div class="row">
             <div class="col-12">
-            <h1>Spotkania</h1>
-            <button class="zobacz_wiecej">Zobacz wiecej</button>
+                <div class="container">
+                    <div class="row">
+                        <div class="col sekcja5_naglowek_tresc">
+                            <p>Spotkania</p>
+                        </div>
+                        <div class="col-7"></div>
+                        <div class="col sekcja5_naglowek_button">
+                            <button class="zobacz_wiecej">Zobacz wiecej</button>
+                        </div>
+                    </div>
+                </div>
+            
+            
             <hr>
         </div>
             <div class="col-6 reportaz">
@@ -355,10 +449,10 @@
                         <div class="col-6 sekcja5_img_space">
                             
                         </div>
-                        <div class="col-6">
-                            <h1>Reportaz 1</h1>
-                            <p>lorem ipsum</p>
-                            <p>ZOBACZ WIĘCEJ</p>
+                        <div class="col-6 sekcja5_tresc">
+                            <p class="reportaz_temat">Reportaz 1</p>
+                            <p class="reportaz_tresc">lorem ipsum</p>
+                            <p class="zobacz_wiecej_p">ZOBACZ WIĘCEJ</p>
                         </div>
                     </div>
                 </div>
@@ -369,10 +463,10 @@
                         <div class="col-6 sekcja5_img_space">
                            
                         </div>
-                        <div class="col-6">
-                            <h1>Reportaz 1</h1>
-                            <p>lorem ipsum</p>
-                            <p>ZOBACZ WIĘCEJ</p>
+                        <div class="col-6 sekcja5_tresc">
+                            <p class="reportaz_temat">Reportaz 1</p>
+                            <p class="reportaz_tresc">lorem ipsum</p>
+                            <p class="zobacz_wiecej_p">ZOBACZ WIĘCEJ</p>
                         </div>
                     </div>
                 </div>
@@ -384,10 +478,10 @@
                         <div class="col-6 sekcja5_img_space">
                             
                         </div>
-                        <div class="col-6">
-                            <h1>Reportaz 1</h1>
-                            <p>lorem ipsum</p>
-                            <p>ZOBACZ WIĘCEJ</p>
+                        <div class="col-6 sekcja5_tresc">
+                            <p class="reportaz_temat">Reportaz 1</p>
+                            <p class="reportaz_tresc">lorem ipsum</p>
+                            <p class="zobacz_wiecej_p">ZOBACZ WIĘCEJ</p>
                         </div>
                     </div>
                 </div>
@@ -399,10 +493,10 @@
                         <div class="col-6 sekcja5_img_space">
                           
                         </div>
-                        <div class="col-6">
-                            <h1>Reportaz 1</h1>
-                            <p>lorem ipsum</p>
-                            <p>ZOBACZ WIĘCEJ</p>
+                        <div class="col-6 sekcja5_tresc">
+                            <p class="reportaz_temat">Reportaz 1</p>
+                            <p class="reportaz_tresc">lorem ipsum</p>
+                            <p class="zobacz_wiecej_p">ZOBACZ WIĘCEJ</p>
                         </div>
                     </div>
                 </div>
@@ -414,15 +508,15 @@
     <section class="tresc" id="sekcja6">
         <div class="container">
         <div class="row">
-        <div class="col-6">
-                <h1>Zaprenumeruj</h1>
-                <p>lorem</p>
+        <div class="col-6 sekcja6_right_div p-5">
+                <p class="sekcja6_right_div_tytul">Zaprenumeruj</h1>
+                <p class="sekcja6_right_div_tresc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus blanditiis, beatae repudiandae aperiam neque unde aut nulla magnam dicta magni sint consequuntur perferendis rem atque quasi officiis deserunt culpa nobis?</p>
             </div>
-            <div class="col-6">
+            <div class="col-6 p-5">
                 <form>
-                Imie: <input type="text" id="imie_nazwisko_prenumeruj" ><br>
-                E-mail: <input type="email" id="email_prenumeruj" ><br>
-                <input type="checkbox" id="zgoda1"> Wyrażam zgodę na przetwarzanie moich danych osobowych w celu przygotowania oferty <b>(rozwiń)</b><br>
+                <input type="text" id="imie_nazwisko_prenumeruj" placeholder="Wpisz swoje imię"><br>
+                <input type="email" id="email_prenumeruj" placeholder="Wpisz swoj e-mail"><br>
+                <input type="checkbox" id="zgoda1" > Wyrażam zgodę na przetwarzanie moich danych osobowych w celu przygotowania oferty <b>(rozwiń)</b><br>
                 <input type="checkbox" id="zgoda2"> Zgadzam się na przetwarzanie moich danych osobowych przez Ilonę Przetacznik w celu realizacji usługi prenumerata <b>(rozwiń)</b><br>
                 <button class="zobacz_wiecej_biale">Zaprenumeruj</button>
                 </form>
@@ -434,8 +528,17 @@
     <div class="container">
     <div class="row">
         <div class="col-12">
-        <b>Czy wiesz ze...</b>
-        <button class="zobacz_wiecej">Zobacz więcej</button>
+            <div class="container">
+                <div class="row">
+                    <div class="col sekcja7_naglowek_tytul">
+                        <p>Czy wiesz ze...</p>
+                    </div>
+                    <div class="col-7"></div>
+                    <div class="col sekcja7_naglowek_button">
+                        <button class="zobacz_wiecej">Zobacz więcej</button>
+                    </div>
+                </div>
+            </div>
     </div>
         <hr>
         <div class="col-3 news">
@@ -445,10 +548,21 @@
 
                     </div>
                     <div class="col-12">
-                        <p>KATEGORIA</p><p>15.07.2021</p>
-                        <h1>News 1</h1>
-                        <p>lorem</p>
-                        <p>ZOBACZ WIECEJ</p>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col sekcja1_naglowek_male_kategoria">
+                                    KATEGORIA
+                                </div>
+                                <div class="col"></div>
+                                <div class="col sekcja1_naglowek_male_kategoria">
+                                    15.07.2021
+                                </div>
+    
+                            </div>
+                          </div>
+                          <p class="news_tytul">News 4</h1>
+                            <p class="news_tresc">lorem</p>
+                            <p class="zobacz_wiecej_p">ZOBACZ WIECEJ</p>
                     </div>
                 </div>
             </div>
@@ -462,10 +576,21 @@
 
                     </div>
                     <div class="col-12">
-                        <p>KATEGORIA</p><p>15.07.2021</p>
-                        <h1>News 2</h1>
-                        <p>lorem</p>
-                        <p>ZOBACZ WIECEJ</p>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col sekcja1_naglowek_male_kategoria">
+                                    KATEGORIA
+                                </div>
+                                <div class="col"></div>
+                                <div class="col sekcja1_naglowek_male_kategoria">
+                                    15.07.2021
+                                </div>
+    
+                            </div>
+                          </div>
+                          <p class="news_tytul">News 4</h1>
+                            <p class="news_tresc">lorem</p>
+                            <p class="zobacz_wiecej_p">ZOBACZ WIECEJ</p>
                     </div>
                 </div>
             </div>
@@ -478,10 +603,21 @@
 
                     </div>
                     <div class="col-12">
-                        <p>KATEGORIA</p><p>15.07.2021</p>
-                        <h1>News 3</h1>
-                        <p>lorem</p>
-                        <p>ZOBACZ WIECEJ</p>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col sekcja1_naglowek_male_kategoria">
+                                    KATEGORIA
+                                </div>
+                                <div class="col"></div>
+                                <div class="col sekcja1_naglowek_male_kategoria">
+                                    15.07.2021
+                                </div>
+    
+                            </div>
+                          </div>
+                          <p class="news_tytul">News 4</h1>
+                            <p class="news_tresc">lorem</p>
+                            <p class="zobacz_wiecej_p">ZOBACZ WIECEJ</p>
                     </div>
                 </div>
             </div>
@@ -494,10 +630,21 @@
 
                     </div>
                     <div class="col-12">
-                        <p>KATEGORIA</p><p>15.07.2021</p>
-                        <h1>News 4</h1>
-                        <p>lorem</p>
-                        <p>ZOBACZ WIECEJ</p>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col sekcja1_naglowek_male_kategoria">
+                                    KATEGORIA
+                                </div>
+                                <div class="col"></div>
+                                <div class="col sekcja1_naglowek_male_kategoria">
+                                    15.07.2021
+                                </div>
+    
+                            </div>
+                          </div>
+                        <p class="news_tytul">News 4</h1>
+                        <p class="news_tresc">lorem</p>
+                        <p class="zobacz_wiecej_p">ZOBACZ WIECEJ</p>
                     </div>
                 </div>
             </div>
@@ -510,8 +657,18 @@
     <div class="container">
     <div class="row">
         <div class="col-12">
-        <h1>Multimedia</h1>
-        <button class="zobacz_wiecej">Zobacz wiecej</button>
+        <div class="container">
+            <div class="row">
+                <div class="col sekcja8_naglowek_tytul">
+                    <p>Multimedia</p>
+                </div>
+            
+            <div class="col-7"></div>
+            <div class="col sekcja8_naglowek_button">
+                <button class="zobacz_wiecej">Zobacz wiecej</button>
+            </div>
+        </div>
+        </div>
         <hr>
         </div>
         <div class="col-4">
@@ -521,7 +678,7 @@
 
             </div>
             <div class="col-12">
-                <p>Nazwa filmu 1</p>
+                <p class="nazwa_filmu">Nazwa filmu 1</p>
             </div>
         </div>
        </div>
@@ -533,7 +690,7 @@
                 
             </div>
             <div class="col-12">
-                <p>Nazwa filmu 2</p>
+                <p class="nazwa_filmu">Nazwa filmu 2</p>
             </div>
         </div>
        </div>
@@ -545,7 +702,7 @@
                         
                     </div>
                     <div class="col-12">
-                        <p>Nazwa filmu 3</p>
+                        <p class="nazwa_filmu">Nazwa filmu 3</p>
                     </div>
                 </div>
                </div>
@@ -557,8 +714,17 @@
     <div class="container">
     <div class="row">
         <div class="col-12">
-        <h1>E-wydania</h1>
-        <button class="zobacz_wiecej_ciemny">Zobacz wiecej</button>
+            <div class="container">
+                <div class="row">
+                    <div class="col sekcja9_naglowek_tytul">
+                        <p>E-wydania</p>
+                    </div>
+                    <div class="col-7"></div>
+                    <div class="col sekcja9_naglowek_button">
+                        <button class="zobacz_wiecej_ciemny">Zobacz wiecej</button>
+                    </div>
+                </div>
+            </div>
     </div>
         <hr>
         <div class="col-4 wydanie">
@@ -568,9 +734,9 @@
 
                     </div>
                     <div class="col-12">
-                        <p>Wydanie 03.05.2021</p>
-                        <h2>Tytul wydania</h2>
-                        <p>POBIERZ</p>
+                        <p class="wydanie_tekst_data">Wydanie 03.05.2021</p>
+                        <p class="wydanie_tekst_tytul">Tytul wydania</p>
+                        <p class="pobierz_p">POBIERZ</p>
                     </div>
                 </div>
             </div>
@@ -584,9 +750,9 @@
 
                     </div>
                     <div class="col-12">
-                        <p>Wydanie 03.05.2021</p>
-                        <h2>Tytul wydania</h2>
-                        <p>POBIERZ</p>
+                        <p class="wydanie_tekst_data">Wydanie 03.05.2021</p>
+                        <p class="wydanie_tekst_tytul">Tytul wydania</p>
+                        <p class="pobierz_p">POBIERZ</p>
                     </div>
                 </div>
             </div>
@@ -598,9 +764,9 @@
 
                     </div>
                     <div class="col-12">
-                        <p>Wydanie 03.05.2021</p>
-                        <h2>Tytul wydania</h2>
-                        <p>POBIERZ</p>
+                        <p class="wydanie_tekst_data">Wydanie 03.05.2021</p>
+                        <p class="wydanie_tekst_tytul">Tytul wydania</p>
+                        <p class="pobierz_p">POBIERZ</p>
                     </div>
                 </div>
             </div>
@@ -609,7 +775,7 @@
 </div>
 </section>
     <footer class="stopka">
-        <div class="container">
+        <div class="container pt-5">
         <div class="row">
         <div class="col-3">
             <img src="logo.png" alt="logo" class="logo">
@@ -624,7 +790,7 @@
             </p>
         </div>
         <div class="col-3">
-            <b>Menu</b><br>
+            <p class="footer_bigger">Menu</p>
             <p>czasopismo</p>
             <p>rozwoj dziecka</p>
             <p>wychowawcy</p>
@@ -633,6 +799,7 @@
             <p>klasy wychowania</p>
         </div>
         <div class="col-3">
+            <p class="footer_bigger">&#8204;</p>
             <p>inspiracje</p>
             <p>spotkania</p>
             <p>czy wiesz ze</p>
@@ -641,10 +808,10 @@
             <p>kontakt</p>
         </div>
         <div class="col-3">
-            <b>Social Media</b>
+            <p class="footer_bigger">Social Media</p>
             <p>facebook.com/wychowujmy</p>
-            <br>
-            <b>Kontakt</b>
+            
+            <p class="footer_bigger">Kontakt</p>
             <p>+ 48 123 456 789</p>
             <p>mail@wychowyjmy.pl</p>
         </div>
