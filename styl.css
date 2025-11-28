@@ -1,5 +1,29 @@
 
-.ikona_mysz > img
+.site_container {
+    max-width: 1920px !important;
+    margin: 0 auto;      
+}
+.nav_option
+{
+    border-left: solid 1px black;
+}
+.nav_option > a
+{
+    text-decoration: none;
+    color: black;
+}
+.input
+{ 
+        padding: 12px 18px;
+        border: 2px solid #ccc;
+        border-radius: 10px;
+        font-size: 16px;
+        transition: 0.3s;
+        width: 250px;
+        width: 460px;
+    
+}
+.mouse_icon > img
 {
     
     width: 33px;
@@ -18,23 +42,33 @@
     height: 47px;
     opacity: 1;
 }
+.nav_option
+{
+    font-family: Barlow;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+}
 .logo
 {
     background-image: url("logo.png");
     width: 273px;
     height: 56pxs;
 }
-.sekcja1_left_div
+.section1_left_div
 {
     padding-right: 5%;
 }
-#czasopismo_img
+#magazine_img
 {
     background: lightcoral;
     width:628px;
     height: 473px;
 }
-#czasopismo_tekst
+#magazine_text
 {
     width: 628px;
     height: 575px;
@@ -43,7 +77,7 @@
 }
 
 
-.sekcja1_male
+.section1_small
 {
     width: 320px;
     height: 233px;
@@ -91,22 +125,13 @@ main button
     gap: 10px;
 
 }
-#czasopismo_tekst
+#magazine_text
 {
     color: white;
     background-color: #4B4B4B;
     
 }
-#czasopismo_tekst > h1
-{
-    font-family: Barlow;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 100%;
-    letter-spacing: 0%;
-
-}
-#czasopismo_tekst > h1
+#magazine_text > h1
 {
     font-family: Barlow;
     font-weight: 500;
@@ -115,7 +140,7 @@ main button
     letter-spacing: 0%;
     padding: 10px;
 }
-#pobierz
+#download
 {
     background-color: #FFFFFF;
     padding-top: 11px;  
@@ -124,7 +149,7 @@ main button
     padding-left: 31px;
     gap: 10px;
 }
-.zobacz_wiecej
+.see_more
 {
     background: #C4C4C4;
     padding-top: 11px;  
@@ -141,7 +166,7 @@ main button
     vertical-align: middle;
 
 }
-.zobacz_wiecej_p
+.see_more_p
 {
     font-family: Barlow;
     font-weight: 600;
@@ -151,7 +176,7 @@ main button
     text-align: right;
 
 }
-.zobacz_wiecej_biale
+.see_more_white
 {
      background: white;
     padding-top: 11px;  
@@ -160,7 +185,7 @@ main button
     padding-left: 31px;
     gap: 10px;
 }
-.sekcja1_naglowek_male_button
+.section1_header_small_button
 {
 
     padding-top: 11px;
@@ -179,7 +204,7 @@ main button
 
 
 }
-.sekcja1_naglowek_male_kategoria
+.section1_header_small_categry
 {
     font-family: Barlow;
 font-weight: 600;
@@ -191,7 +216,7 @@ color: #4B4B4B;
 
 
 }
-.sekcja1_naglowek_male_tekst
+.section1_header_small_text
 {
     padding-top: 11px;
     padding-right: 31px;
@@ -206,7 +231,7 @@ color: #4B4B4B;
     height: 38;
     top: 2px;
 }
-.sekcja1_male_tekst > h1
+.section1_small_text > h1
 {
     font-family: Barlow;
     font-weight: 600;
@@ -216,7 +241,7 @@ color: #4B4B4B;
     padding: 10px;
 
 }
-.sekcja1_male_tresc
+.section1_small_content
 {
     font-family: Barlow;
     font-weight: 400;
@@ -225,26 +250,7 @@ color: #4B4B4B;
     letter-spacing: 0%;
 
 }
-.sekcja1_zobacz_wiecej_p
-{
-    font-family: Barlow;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 100%;
-    letter-spacing: 0%;
-    text-align: right;
-
-}
-.sekcja1_tekst_male > 
-{
-    font-family: Barlow;
-    font-weight: 600;
-    font-size: 26px;
-    line-height: 100%;
-    letter-spacing: 0%;
-
-}
-.sekcja2_tresc
+.section2_content
 {
     background-color: #C4C4C4;
     width: 660;
@@ -254,7 +260,7 @@ color: #4B4B4B;
 
     
 }
-.sekcja2_tresc > h1
+.section2_content > h1
 {
     font-family: Barlow;
     font-weight: 700;
@@ -262,7 +268,7 @@ color: #4B4B4B;
     line-height: 100%;
     letter-spacing: 0%;
 }
-.sekcja2_tresc > p
+.section2_content > p
 {
     font-family: Barlow;
     font-weight: 400;
@@ -283,7 +289,7 @@ color: #4B4B4B;
     padding-left: 10px;
     border-width: 1px;
 }
-.sekcja3_naglowek_tekst
+.section3_header_text
 {
     width: 290;
     height: 38;
@@ -295,7 +301,7 @@ color: #4B4B4B;
     line-height: 100%;
     letter-spacing: 0%;
 }
-.sekcja3_tresc > h1
+.section3_content > h1
 {
     font-family: Barlow;
     font-weight: 700;
@@ -304,7 +310,7 @@ color: #4B4B4B;
     letter-spacing: 0%;
      
 }
-.sekcja3_tresc > p 
+.section3_content > p 
 {
     font-family: Barlow;
     font-weight: 400;
@@ -312,33 +318,33 @@ color: #4B4B4B;
     line-height: 100%;
     letter-spacing: 0%;
 }
-.sekcja3_img_space
+.section3_img_space
 {
     background-color: lightcoral;
     width:304px;
     height: 265px;
 }
-.sekcja4_img_space
+.section4_img_space
 {
     background-color: lightcoral;
     width:304px;
     height: 265px;
 }
-.sekcja4_button
+.section4_button
 {
     padding: 20px;
 }
-#sekcja4 > .container
+#section4 > .container
 {
     background: #4B4B4B;
     color: white;
 }
-.sekcja4_div_info
+.section4_div_info
 {
     background: white;
     color: black
 }
-.sekcja4_kategoria
+.section4_category
 {
     font-family: Barlow;
     font-weight: 400;
@@ -347,7 +353,7 @@ color: #4B4B4B;
     letter-spacing: 0%;
 
 }
-.sekcja4_tresc_naglowek
+.section4_header_content
 {
     font-family: Barlow;
     font-weight: 600;
@@ -356,7 +362,7 @@ color: #4B4B4B;
     letter-spacing: 0%;
 
 }
-.sekcja4_tresc
+.section4_content
 {
     font-family: Barlow;
     font-weight: 400;
@@ -365,7 +371,7 @@ color: #4B4B4B;
     letter-spacing: 0%;
 
 }
-.szczegoly
+.details
 {
     font-family: Barlow;
     font-weight: 600;
@@ -375,13 +381,13 @@ color: #4B4B4B;
     text-align: right;
 
 }
-.sekcja5_img_space
+.section5_img_space
 {
     background-color: lightcoral;
     width:287px;
     height: 185px;
 }
-.sekcja5_naglowek_tresc
+.section5_header_content
 {
     font-family: Barlow;
     font-weight: 700;
@@ -389,7 +395,7 @@ color: #4B4B4B;
     line-height: 100%;
     letter-spacing: 0%;
 }
-.reportaz_temat
+.reporatge_topic
 {
     font-family: Barlow;
     font-weight: 600;
@@ -398,7 +404,7 @@ color: #4B4B4B;
     letter-spacing: 0%;
     padding:10px;
 }
-.reportaz_tresc
+.reporatge_content
 {
     font-family: Barlow;
     font-weight: 400;
@@ -407,7 +413,7 @@ color: #4B4B4B;
     letter-spacing: 0%;
     padding:10px;
 }
-.sekcja6_right_div_tytul
+.section6_right_div_titile
 {
     font-family: Barlow;
     font-weight: 700;
@@ -416,7 +422,7 @@ color: #4B4B4B;
     letter-spacing: 0%;
 
 }
-.sekcja6_right_div_tresc
+.section6_right_div_content
 {
     font-family: Barlow;
     font-weight: 400;
@@ -424,18 +430,18 @@ color: #4B4B4B;
     line-height: 100%;
     letter-spacing: 0%;
 }
-#sekcja6 > .container
+#section6 > .container
 {
     background-color:#C4C4C4;
 }
 
-.sekcja7_img_space
+.section7_img_space
 {
     background-color: lightcoral;
     width:320px;
     height: 233px;
 }
-.sekcja7_naglowek_tytul
+.section7_header_title
 {
     font-family: Barlow;
     font-weight: 700;
@@ -444,7 +450,7 @@ color: #4B4B4B;
     letter-spacing: 0%;
 
 }
-.news_tytul
+.news_title
 {
     font-family: Barlow;
     font-weight: 600;   
@@ -452,7 +458,7 @@ color: #4B4B4B;
     line-height: 100%;
     letter-spacing: 0%;
 }
-.news_tresc
+.news_content
 {
     font-family: Barlow;
     font-weight: 400;
@@ -460,7 +466,7 @@ color: #4B4B4B;
     line-height: 100%;
     letter-spacing: 0%;
 }
-.sekcja8_naglowek_tytul
+.section8_header_title
 {
     font-family: Barlow;
     font-weight: 700;
@@ -469,13 +475,13 @@ color: #4B4B4B;
     letter-spacing: 0%;
 
 }
-.sekcja8_video_space
+.section8_video_space
 {
     background-color: lightblue;
     width:389px;
     height: 306px;
 }
-.nazwa_filmu
+.film_name
 {
     font-family: Barlow;
     font-weight: 600;
@@ -483,7 +489,7 @@ color: #4B4B4B;
     line-height: 100%;
     letter-spacing: 0%;
 }
-.sekcja9_naglowek_tytul
+.section9_header_title
 {
     font-family: Barlow;
     font-weight: 700;
@@ -491,17 +497,17 @@ color: #4B4B4B;
     line-height: 100%;
     letter-spacing: 0%;
 }
-.sekcja9_img_space
+.section9_img_space
 {
     background-color: lightcoral;
     width:285px;
     height: 403px;
 }
-#sekcja9 > .container
+#section9 > .container
 {
     background-color: #C4C4C4;
 }
-.wydanie_tekst_data
+.edition_text_data
 {
     font-family: Barlow;
     font-weight: 600;
@@ -509,7 +515,7 @@ color: #4B4B4B;
     line-height: 100%;
     letter-spacing: 0%;
 }
-.wydanie_tekst_tytul
+.edition_text_title
 {
     font-family: Barlow;
     font-weight: 600;
@@ -517,7 +523,7 @@ color: #4B4B4B;
     line-height: 100%;
     letter-spacing: 0%;
 }
-.pobierz_p
+.download_p
 {
     font-family: Barlow;
     font-weight: 600;
@@ -526,7 +532,7 @@ color: #4B4B4B;
     letter-spacing: 0%;
     
 }
-.zobacz_wiecej_ciemny
+.see_more_dark
 {
      background: #4B4B4B;
     padding-top: 11px;  
