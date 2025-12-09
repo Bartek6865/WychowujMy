@@ -110,3 +110,11 @@ text-align: right;
     line-height: 100%;
     letter-spacing: 0%;
 }
+.page
+{
+    background-color: powderblue;
+    width:40px;
+    height: 40px;
+    text-align: center;
+    justify-items: center;
+}
